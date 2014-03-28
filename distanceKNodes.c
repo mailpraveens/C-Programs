@@ -1,3 +1,5 @@
+// Program to print all nodes at a distance k from a node in a binary tree
+
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct node_t node;
@@ -16,7 +18,6 @@ node * getNewNode(int data){
 	temp->right = NULL;
 	return temp;
 }
-// Program to print all nodes at a distance k from a node in a binary tree
 
 
 void printNodesAtDistancek(node * root, int k) {
