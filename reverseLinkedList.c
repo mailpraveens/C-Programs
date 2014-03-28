@@ -1,12 +1,12 @@
-#Snippet to reverse a linked list recursively
-
-#typedef struct node_t node;
+//Snippet to reverse a linked list recursively
+#include <stdio.h>
+typedef struct node_t node;
 
 struct node_t{
 	/* data */
 	int data;
 	node * next;
-}
+};
 /*
 
 Recursively calls till the last node is encountered

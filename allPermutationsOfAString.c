@@ -26,10 +26,10 @@ void permutation(char * input , int startPosition, int endPosition){
 	}
 }
 
-int main(int argc, char const *argv[])
+int main(int argc0, char const *argv[])
 {
 	
-	char a[] = "ABCDEF";
+	char a[] = "()()()";
 	permutation(a,0,strlen(a)-1);
 
 	return 0;
